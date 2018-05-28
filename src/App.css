@@ -1,0 +1,184 @@
+.App-header {
+  background-color:#008080;
+  height:auto;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+.header{
+  display: flex;
+  width: 100%;
+}
+.App-header{
+  /* flexdirection cotrola la direccion de los ejes*/
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: auto;
+}
+li {
+  border-bottom:1px solid #008080;
+}
+li a {
+ text-decoration-line: none;
+ padding: 5px;
+}
+.main {
+  color:white;
+  font-size: 1.1em;
+}
+li:hover {
+  border-bottom: 1px solid white;
+}
+.btnLogout:hover {
+  border-bottom: 1px solid white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+  
+}
+li {
+  text-align: center;
+  align-items: baseline;
+  padding: 10px;
+}
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+.btnLogin {
+ margin:30px;
+ font-size: 1.1em;
+ padding: 5px 10px;
+ border:solid 1px white;
+ background-color:orange;
+ color: white;
+margin-top:80px;
+ font-family: 'Raleway', sans-serif;
+}
+.header{
+  display: block;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+section  span{
+  color: mintcream;
+}
+.btnFacebook{
+  background-color: blue;
+}
+.imgContainer {
+  width: 30%;
+  padding-top: 15px;
+}
+.imgIphone{
+  width: 95%;
+  max-height: 700px;
+}
+.btn{
+  width: 30%;
+  float: right;
+}
+.image{
+  width: 100%;
+}
+.row {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+.containerHeader{
+  width: 100%;
+}
+.link {
+  font-size: 1.3em;
+  display:block;
+  margin-left: 25px;
+  color: grey;
+}
+
+.link:hover {
+  color: blue;
+}
+.btnLogout {
+  border:transparent;
+  background-color: transparent;
+}
+
+.jobs-section{
+  width: 25%;
+  height:320px;
+  padding: 3px;
+}
+.title-main{
+  width:100%;
+  display: inline-block;
+}
+.container-job{
+  width: 100%;
+  margin-top:50px;
+}
+.search-bar {
+  width:25%;
+  font-size:1em;
+  border: 1px solid white;
+  text-align: center;
+  height: 21px;
+  margin-top: 7px;
+}
+.search{
+  font-size: 20px;
+  padding-left: 5px;
+  color:white;
+  margin-left: 5px;
+}
+.description {
+  font-size: 1.2em;
+  text-align: center;
+  
+}
+.user-data {
+ border: 1px solid white;
+ margin-top: 10px;
+}
+.title-comment {
+  font-weight: normal;
+}
+.image-prefil{
+  width: 20%;
+  height: 20%;
+  margin-right: 5px;
+}
+[type="text"]{
+  margin-right: 10px;
+  margin-top:10px;
+  font-size: .9em;
+  padding: 1px;
+}
+[type="button"] {
+  border: 1px solid white;
+  font-size:1.1em;
+  color:white;
+  background: #1883ba;
+  padding:5px;
+  border-radius: 5px;
+}
+@media only screen and ( max-width:920px){
+  .imgIphone{
+    display: none;
+  }
+  .btn{
+    width:100%;
+    display: block;
+    margin:0 auto;
+    padding: 0 auto;
+  }
+  .jobs-section{
+    width: 100%;
+  }
+}
